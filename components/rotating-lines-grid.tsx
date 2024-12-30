@@ -106,7 +106,9 @@ const RotatingLinesGrid = () => {
   }
 
   const getColor = (distance: number) => {
-    const maxDistance = Math.sqrt(containerRef.current?.clientWidth ** 2 + containerRef.current?.clientHeight ** 2) || 500
+    const width = containerRef.current?.clientWidth
+    const height = containerRef.current?.clientHeight
+    const maxDistance = width && height ? Math.sqrt(width ** 2 + height ** 2) : 500
     const intensity = Math.max(0, 1 - distance / (maxDistance * 0.3))
     const baseColor = 128  // Gray color (128, 128, 128)
     const color = Math.round(baseColor + (127 * intensity))
