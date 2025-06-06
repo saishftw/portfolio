@@ -22,7 +22,7 @@ export function Hero() {
       </div>
       <p className="max-w-2xl mx-auto text-muted-foreground">
         Software Engineer with 5 years of experience in enterprise-scale systems development, 
-        focusing on Generative AI applications and complex full-stack solutions.
+        focusing on Generative AI applications and full-stack solutions.
       </p>
     </section>
   )

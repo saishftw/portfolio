@@ -99,10 +99,10 @@ export function Projects() {
               </CardHeader>
 
               <CardContent>
-                <p className="text-sm text-muted-foreground mb-4 line-clamp-2 pb-6">{project.description}</p>
+                <p className="text-sm text-muted-foreground mb-4 pb-6">{project.description}</p>
                 <div className="flex flex-wrap gap-2">
                   {project.tags.map((tag) => (
-                    <Badge key={tag} variant="secondary" className="glassmorphism text-xs text-white/80 py-2 px-3">
+                    <Badge key={tag} variant="secondary" className={`${theme === "dark" ? "text-white/80" : ""} glassmorphism text-xs py-2 px-3`}>
                       {tag}
                     </Badge>
                   ))}

@@ -4,13 +4,13 @@
  
 @layer base {
   :root {
-    --background: 210 40% 98%;
+    --background: 0 0% 98%;
     --foreground: 222.2 84% 4.9%;
     --card: 0 0% 100%;
     --card-foreground: 222.2 84% 4.9%;
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
-    --primary: 221.2 83.2% 53.3%;
+    --primary: 221.2 83.2% 70%;
     --primary-foreground: 210 40% 98%;
     --secondary: 210 40% 96.1%;
     --secondary-foreground: 222.2 47.4% 11.2%;
@@ -25,7 +25,7 @@
     --ring: 221.2 83.2% 53.3%;
     --radius: 0.5rem;
     --theme-animation-bg: rgba(255, 255, 255, 0.2);
-    --primary-rgb: 29, 78, 216;
+    --primary-rgb: 102, 153, 255;
   }
  
   .dark {
@@ -88,7 +88,7 @@
 
 /* Glassmorphism */
 .glassmorphism {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.437);
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -242,4 +242,3 @@ body {
     clip-path: inset(0 0 0 98%);
   }
 }
-

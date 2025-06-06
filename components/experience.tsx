@@ -10,8 +10,8 @@ const experiences = [
     company: "ClaySys Technologies",
     date: "November 2023 - Current",
     description: [
-      "Leading an 8-engineer team building enterprise-grade GenAI applications, delivering 90% RAG accuracy through cutting-edge retrieval strategies and robust evaluation pipelines.",
-      "Acting as the primary technical liaison for US-based enterprise clients—driving requirement gathering, defining implementation strategies, and influencing key technical decisions as part of the Senior Leadership Team.",
+      "Leading an 8-engineer team building enterprise-grade GenAI applications, delivering 90% RAG accuracy through proven retrieval strategies and evaluation pipelines.",
+      "Acting as the primary technical liaison for US-based enterprise clients — driving requirement gathering, defining implementation strategies, and influencing technical decisions as part of the Senior Leadership Team.",
     ],
   },
   {
@@ -21,7 +21,7 @@ const experiences = [
     description: [
       "Developed and delivered an enterprise Video Banking platform (WebRTC, Twilio) supporting multi-participant sessions, screen sharing, and co-browsing for multiple credit unions.",
       "Independently built a Text Messaging platform featuring opt management, multi-factor authentication, automated escalation workflows, and video/audio call integration.",
-      "Fast-tracked to Senior Software Engineer with a 4-level promotion in 8 months, reflecting outstanding performance and technical expertise.",
+      "Fast-tracked to Senior Software Engineer with a 4-level promotion in 8 months.",
     ],
   },
   {
@@ -29,7 +29,7 @@ const experiences = [
     company: "ClaySys Technologies",
     date: "June 2020 - September 2021",
     description: [
-      "Developed and maintained a scalable URL Shortener service, seamlessly integrated across enterprise applications.",
+      "Developed and maintained a scalable URL Shortener service, integrated across enterprise applications.",
       "Mentored and trained 2 junior engineers, enabling skill growth and improving team productivity.",
     ],
   },
