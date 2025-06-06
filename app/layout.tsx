@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import { Geist, Azeret_Mono as GeistMono } from 'next/font/google'
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
+import { ScrollIndicator } from "@/components/ScrollIndicator"
 
 const geistSans = Geist({ subsets: ["latin"], variable: "--font-geist-sans" })
 const geistMono = GeistMono({ subsets: ["latin"], variable: "--font-geist-mono" })
@@ -27,8 +28,8 @@ export default function RootLayout({
         >
           {children}
         </ThemeProvider>
+        <ScrollIndicator />
       </body>
     </html>
   )
 }
-
