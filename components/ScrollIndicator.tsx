@@ -26,8 +26,8 @@ export function ScrollIndicator() {
   if (!show) return null;
 
   return (
-    <div className="fixed bottom-6 left-0 w-full flex justify-center pointer-events-none">
-      <div className="bg-background/60 backdrop-blur rounded-full p-1 z-50 animate-bounce text-gray-500 shadow-[0_2px_4px_rgba(0,0,0,0.4)]">
+    <div className="fixed bottom-6 left-0 w-full flex justify-center pointer-events-none z-10">
+      <div className="bg-background/60 backdrop-blur rounded-full p-1 animate-bounce text-gray-400 shadow-[0_2px_4px_rgba(0,0,0,0.4)]">
         <ChevronDown size={22} />
       </div>
     </div>
