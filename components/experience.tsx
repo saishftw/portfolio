@@ -6,7 +6,7 @@ import { useGlowEffect } from '@/hooks/useGlowEffect';
 
 const experiences = [
   {
-    title: "Technical Team Lead",
+    title: "Generative AI Engineer Lead",
     company: "ClaySys Technologies",
     date: "November 2023 - Current",
     description: [
@@ -54,7 +54,7 @@ export function Experience() {
               <Card className="glassmorphism animated-border-trail">
                 <CardHeader>
                   <CardTitle className={theme === 'dark' ? 'glow-text' : ''}>{exp.title}</CardTitle>
-                  <CardDescription>{exp.company} | {exp.date}</CardDescription>
+                  <CardDescription className="pt-1 text-xs">{exp.company} | {exp.date}</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <ul className="list-disc pl-5 space-y-2">
