@@ -6,16 +6,25 @@ import { useGlowEffect } from '@/hooks/useGlowEffect';
 
 const experiences = [
   {
-    title: "Generative AI Engineer Lead",
+    title: "Software Engineer II",
+    company: "Microsoft",
+    date: "November 2025 - Current",
+    description: [
+      // "Joined XBOX Gaming",
+      // "Acting as the primary technical liaison for US-based enterprise clients — driving requirement gathering, defining implementation strategies, and influencing technical decisions as part of the Senior Leadership Team.",
+    ],
+  },
+  {
+    title: "Generative AI Engineer",
     company: "ClaySys Technologies",
-    date: "November 2023 - Current",
+    date: "November 2023 - October 2025",
     description: [
       "Leading an 8-engineer team building enterprise-grade GenAI applications, delivering 90% RAG accuracy through proven retrieval strategies and evaluation pipelines.",
       "Acting as the primary technical liaison for US-based enterprise clients — driving requirement gathering, defining implementation strategies, and influencing technical decisions as part of the Senior Leadership Team.",
     ],
   },
   {
-    title: "Senior Software Engineer",
+    title: "Sr. Software Engineer",
     company: "ClaySys Technologies",
     date: "September 2021 - November 2023",
     description: [
